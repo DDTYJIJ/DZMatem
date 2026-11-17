@@ -3,11 +3,11 @@
 #include <cmath>
 
 
-int kal = 0;
+int lol = 0;
 
 double f(double x)
 {
-	kal++;
+    lol++;
 	return std::log(x) - std::cos(x);
 }
 
@@ -108,7 +108,7 @@ int main()
     std::cout << "Корень найден: x = " << x0 << ", f(x) = " << f(x0) << "\n";
 
 
-    std::cout << "\nВычислений функции f(x): " << kal << "\n";
+    std::cout << "\nВычислений функции f(x): " << lol << "\n";
 
 
 
